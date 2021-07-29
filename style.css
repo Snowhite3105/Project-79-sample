@@ -1,0 +1,23 @@
+body{
+    background-color:aquamarine;
+    color: white;
+    text-align: center;
+}
+#submit_button{
+margin: auto;
+    background-color: greenyellow;
+    color: maroon;
+}
+#sort_button{
+    display: none;
+    margin: auto;
+    background color: blueviolet;
+    color: rebeccapurple;
+}
+h3{
+display: none;   
+}
+input{
+    margin: 5px;
+    
+}
