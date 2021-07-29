@@ -4,7 +4,7 @@
 <head>
     <title> Attendence Tracker </title>
     <link rel="stylesheet" href="style.css">
-    <script scr="main.js"> </script>
+    <script src="main.js"> </script>
 </head>
 
 <body>
@@ -13,7 +13,7 @@
         <br>
         <div>
             <span> 1 </span>
-            <input type="text" placeholder="Student 1" id="name_of_the_student_1"> 
+            <input type="text" placeholder="Student 1" id="name_of_the_student_1">
             <br>
             <span> 2</span>
             <input type="text" placeholder="Student 2" id="name_of_the_student_2">
@@ -26,12 +26,17 @@
                    <br>
             <span> 5</span>
             <input type="text" placeholder="Student 5" id="name_of_the_student_5">
-            <button onclick="submit()" id="submit_button">Click on me</button>
+            <br>
+        </div>
+        <div>
+           <button onclick="submit()" id="submit_button"> Click on me!! </button>
             <h4> Click on THIS button to register the class attendence</h4>
             </div>
         <div id="display_name"> </div>
-        <button onlick="sorting()" id="sort_button">Click on me</button>
-        <h3> Click on THIS button to sort the names you have registered in attendence tracker😀</h3>
+        <div>
+        <button onclick = "sorting()" id="sort_button">Click on me</button>
+        <h3 id ="show2"> Click on THIS button to sort the names you have registered in attendence tracker😀</h3>
+            </div>
                 </center>
 </body>
 
